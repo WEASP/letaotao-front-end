@@ -1,7 +1,18 @@
-#letaotao-front
-“乐淘淘”电商网站
+乐淘淘电商 - 前端开发部分
 
-这是一个前后端完全分离开发的电商网站，前端先用html，css进行框架和界面的渲染，并且将功能的框架部分放在index.string里，
-然后用js，jQuery进行动态渲染（功能实现），最后运用webpack进行模块化打包集成，实现网站的页面和功能.
+项目依赖
 
-备注:1.当功能涉及到后端数据库时，使用charles将有关文件劫持
+节点
+webpack v1
+webpack-dev-server v1.16.5
+项目运行
+
+安装的NodeJS环境
+全局安装webpack v1.x
+全局安装webpack-dev-server v1.16.5
+根项目目录执行npm install初始化项目
+启动该项目（窗口运行环境）
+开发模式：npm run dev
+生产模式：npm run dist
+开发模式下访问预览项目
+访问：http：// localhost：8088 / dist / view / index.html
