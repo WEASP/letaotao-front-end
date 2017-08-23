@@ -3,7 +3,6 @@
  */
 'use strict';
 require('./index.css');
-
 var _ltt        =require('util/ltt.js');
 var _user       =require('service/user-service.js');
 var _cart       =require('service/cart-service.js');
@@ -39,14 +38,6 @@ var nav= {
     },function (errMsg) {
         //do nothing
     });
-    },
-    // 加载购物车数量
-    loadCartCount : function(){
-        _cart.getCartCount(function(res){
-            $('.nav .cart-count').text(res || 0);
-        }, function(errMsg){
-            $('.nav .cart-count').text(0);
-        });
     }
 };
 

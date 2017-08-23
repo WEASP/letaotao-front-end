@@ -21,7 +21,7 @@ var page = {
     bindEvent:function () {
         var _this=this;
         //登录按钮点击
-        $('.btn-submit').click(function () {
+        $('#submit').click(function () {
                 _this.submit();
         });
         //如果按下回车，也进行提交
