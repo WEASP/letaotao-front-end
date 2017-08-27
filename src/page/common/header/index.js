@@ -25,7 +25,7 @@ var header= {
             _this.searchSubmit();
         });
         //输入回车后，做搜索提交
-        $('#search-btn').keyup(function (e) {
+        $('#search-input').keyup(function (e) {
             //13是回车键keycode
             if(e.keyCode === 13){
                 _this.searchSubmit();
