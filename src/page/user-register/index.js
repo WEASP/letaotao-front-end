@@ -40,7 +40,7 @@ var page = {
         });
         //注册按钮点击
         $('#submit').click(function () {
-            _this.submit();
+                _this.submit();
         });
         //如果按下回车，也进行提交
         $('.user-content').keyup(function (e) {
