@@ -1,0 +1,26 @@
+.nav{
+    background: #000;
+    height: 30px;
+    line-height: 30px;   
+}
+/* 用户部分 */
+.nav .user{
+    float: left;
+}
+.nav .user.login{
+    display: none;
+}
+.nav .user .link{
+    color: #42E7F6;
+    margin-right: 5px;
+}
+/* 导航链接部分 */
+.nav .nav-list{
+    /*color: #000;*/
+    float: right;
+}
+.nav .nav-list .nav-item{
+    /*color: #000;*/
+    display: inline-block;
+    margin-left: 5px;
+}
